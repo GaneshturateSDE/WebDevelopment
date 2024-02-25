@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid black ;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: white;
+}
+form input{
+    margin:0 2rem;
+    border: 1px solid gray ;
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+   
+}
+form #result{
+    border: 1px blueviolet solid;
+    width: 80%;
+    margin: 0 2rem;
+    margin-top: 5rem;
+}
+form button{
+    width: 80%;
+    margin: 0 2rem;
+    margin-top: 5rem;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(126, 33, 214);
+   
+}
+body{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.selects{
+    margin-top: 5rem;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.selects select{
+    width: 100px;
+}
+.selects img{
+  
+}
