@@ -18,6 +18,7 @@ for(let select of dropselect){
     }
     select.addEventListener("change",(evt)=>{
          updateFlag(evt.target);
+         changeRate();
     });
 } 
 const updateFlag=(element)=>{
@@ -27,16 +28,13 @@ const updateFlag=(element)=>{
   let img=element.parentElement.querySelector("img");
   img.src=newSrc;
 }
-
 btn.addEventListener("click",async (evt)=>{
 evt.preventDefault();
 changeRate();
 });
-
 window.addEventListener("load",()=>{
     changeRate();
 });
-
 const changeRate=async ()=>{
     let amount=document.querySelector("input");
 let amtVal=amount.value;
